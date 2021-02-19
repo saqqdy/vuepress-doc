@@ -1,16 +1,13 @@
 {
-    "name": "docs",
-    "version": "0.1.0",
-    "description": "yun-ui docs",
+    "name": "vuepress-doc",
+    "version": "1.0.0",
+    "description": "vuepress docs demo",
     "scripts": {
         "docs:dev": "vuepress dev docs",
         "docs:build": "vuepress build docs",
         "prettier": "prettier --write \"**/*.{js,ts,sh,vue,json,md}\""
     },
     "main": "index.js",
-    "repository": "http://git.kingdee.com/wojiacloud_web/yun-ui",
-    "author": "saqqdy",
-    "license": "MIT",
     "private": true,
     "devDependencies": {
         "@babel/eslint-parser": "^7.12.17",
@@ -33,5 +30,24 @@
         "element-ui": "^2.15.0",
         "highlight.js": "^10.6.0",
         "vue-highlight.js": "^3.1.0"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/saqqdy/vuepress-doc.git"
+    },
+    "keywords": [
+        "vue doc",
+        "plugin",
+        "vuepress-plugin",
+        "vuepress-doc",
+        "vuepress",
+        "vuepress-doc-demo",
+        "saqqdy"
+    ],
+    "author": "saqqdy@qq.com",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/saqqdy/vuepress-doc/issues"
+    },
+    "homepage": "https://github.com/saqqdy/vuepress-doc#readme"
 }
