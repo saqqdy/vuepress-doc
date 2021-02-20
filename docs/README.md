@@ -4,7 +4,7 @@ heroImage: /images/gitmars.png
 heroText: vuepress-doc
 tagline: 基于vuepress的组件文档库
 actionText: 开始 →
-actionLink: /guide/
+actionLink: /idea/
 features:
     - title: 简洁至上
       details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
