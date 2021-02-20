@@ -9,7 +9,7 @@
         "prettier": "prettier --write \"**/*.{js,ts,sh,vue,json,md}\""
     },
     "main": "index.js",
-    "private": true,
+    "private": false,
     "dependencies": {
         "@vssue/api-github-v3": "^1.4.7",
         "@vssue/vuepress-plugin-vssue": "^1.4.7",
