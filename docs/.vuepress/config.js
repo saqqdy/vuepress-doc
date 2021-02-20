@@ -1,7 +1,7 @@
 module.exports = {
     title: 'vuepress-doc',
     description: '基于vuepress的组件文档库',
-    base: '/vuepress-doc',
+    base: '/vuepress-doc/',
     dest: './docs/.vuepress/dist',
     theme: '@vuepress/default',
     themeConfig: {
