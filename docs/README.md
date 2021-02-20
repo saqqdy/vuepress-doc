@@ -2,7 +2,7 @@
 home: true
 heroImage: /images/gitmars.png
 heroText: vuepress-doc
-tagline: 移动端UI组件库
+tagline: 基于vuepress的组件文档库
 actionText: 开始 →
 actionLink: /guide/
 features:

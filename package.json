@@ -1,6 +1,6 @@
 {
     "name": "vuepress-doc",
-    "version": "1.0.0",
+    "version": "1.0.0-alpha.0",
     "description": "vuepress docs demo",
     "scripts": {
         "docs:dev": "vuepress dev docs",
@@ -9,6 +9,16 @@
     },
     "main": "index.js",
     "private": true,
+    "dependencies": {
+        "@vssue/api-github-v3": "^1.4.7",
+        "@vssue/vuepress-plugin-vssue": "^1.4.7",
+        "@vuepress/plugin-back-to-top": "^1.8.2",
+        "@vuepress/plugin-medium-zoom": "^1.8.2",
+        "core-js": "2.6.12",
+        "element-ui": "^2.15.0",
+        "highlight.js": "^10.6.0",
+        "vue-highlight.js": "^3.1.0"
+    },
     "devDependencies": {
         "@babel/eslint-parser": "^7.12.17",
         "@saqqdy/prettier-config": "^1.0.3",
@@ -20,16 +30,6 @@
         "vuepress": "^1.5.2",
         "vuepress-plugin-container": "^2.1.4",
         "vuepress-plugin-smooth-scroll": "^0.0.10"
-    },
-    "dependencies": {
-        "@vssue/api-github-v3": "^1.4.7",
-        "@vssue/vuepress-plugin-vssue": "^1.4.7",
-        "@vuepress/plugin-back-to-top": "^1.8.2",
-        "@vuepress/plugin-medium-zoom": "^1.8.2",
-        "core-js": "2.6.12",
-        "element-ui": "^2.15.0",
-        "highlight.js": "^10.6.0",
-        "vue-highlight.js": "^3.1.0"
     },
     "repository": {
         "type": "git",
